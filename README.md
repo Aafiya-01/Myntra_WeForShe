@@ -7,4 +7,19 @@ Despite attracting nearly 75 million new users in the past year, with 65% from n
 ### Tech Stack Used:-
 
 1. Link Of Bitmoji Extension Used: https://g.co/kgs/oDkKo3p
-2. DataSet Used: 
+2. DataSet Used: Given in Repo
+3. frameworks and modules used:-
+• Virtual Try-On with User-Alike Dummies:, : React, Three.js, HTML, CSS3, 
+Node.js, Python with Flask , Blender, Unity3D , OpenCV. TensorFlow, MongoDB, 
+AWS, RESTful APIs, OAuth or JWT, Docker
+ • Dummy Styling Battles: HTML , CSS, JavaScript, React.js, Three.js, WebSocket, 
+Node.js, Python with Flask, Socket.io, 
+Blender,Unity3D,WebGL,MOngoDB,AWS,Firebase,RESTful APIs, GraphQL, 
+Google Analytics.
+ • 3D Model Rendering: HTML, CSS, Tailwind, Bootstrap, Node.js, Python with 
+flask, MongoDB, OAuth, Socket.io, AWS, PayPal APIs.
+ • Additional Features: RESTful APIS, Firebase, User Authentication
+ • Interactive Social Media like feed: HTML, CSS,
+ Three.js, React.js, Bootstrap, Node.js, MongoDB, 
+AWS
+ • Token raising system: HTML, CSS, JavaScript, Node.js
