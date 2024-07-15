@@ -7,8 +7,7 @@ Despite attracting nearly 75 million new users in the past year, with 65% from n
 ### Tech Stack Used:-
 
 1. Link Of Bitmoji Extension Used: https://g.co/kgs/oDkKo3p
-2. DataSet Used: Given in Repo
-3. frameworks and modules used:-
+2. frameworks and modules used:-
 • Virtual Try-On with User-Alike Dummies:, : React, Three.js, HTML, CSS3, 
 Node.js, Python with Flask , Blender, Unity3D , OpenCV. TensorFlow, MongoDB, 
 AWS, RESTful APIs, OAuth or JWT, Docker
