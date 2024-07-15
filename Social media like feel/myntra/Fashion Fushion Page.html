@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles1.css">
+    <script src="like.js" defer></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Fashion Fusion</title>
+  
+</head>
+<body>
+
+
+
+<!-- Our Header section Starts from here -->
+	<header>
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">
+					<a href="#">
+					<img src=
+"logo.jpg"
+						alt="img1" height="30px">
+					</a>
+				</div>
+				<div class="searchbar">
+					<input type="text"
+						placeholder="Search">
+					<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093658/search-200x200.png"
+						height="18"
+						alt="img2">
+				</div>
+				
+				</div>
+				
+  <ul class="nav-group">
+    <li class="nav-item">
+      <a href="#">
+        <i class="fas fa-home"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="">
+        <i class="fab fa-facebook-messenger"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="">
+        <i class="far fa-compass"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="">
+        <i class="far fa-heart"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <div class="action">
+        <a href="profile.html" id="profile-link">
+          <button class="profile-btn" onclick="menuToggle()">
+            <img src="propic1.jpg" alt="user Avatar">
+          </button>
+        </a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <div class="action">
+        <a href="#" id="add-picture-link">
+          <button class="add-picture-btn" onclick="openAddImageModal()">
+            <i class="fas fa-camera"></i>
+            Add Picture
+          </button>
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!-- Add Image modal -->
+<div class="add-image-modal" id="add-image-modal">
+  <div class="add-image-modal-content">
+    <h2>Add Image</h2>
+    <label for="image-input">
+      <i class="fas fa-camera"></i>
+      Select Image
+    </label>
+    <input type="file" id="image-input" accept="image/*">
+    <img src="" alt="Selected Image" id="selected-image">
+    <button id="upload-btn">Upload</button>
+  </div>
+</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Code for Showing the Status -->
+	<main>
+		<div class="container">
+			<div class="col-9">
+				<div class="statuses">
+					<div class="status">
+						<div class="image">
+							<img src=
+"propic2.jpg"
+								alt="img3">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"propic3.jpg"
+								alt="img4">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"propic4.jpg"
+								alt="img5">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"propic5.jpg"
+								alt="img6">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"propic6.jpg"
+								alt="img7">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"propic8.jpg"								alt="img8">
+						</div>
+					</div>
+				</div>
+			
+			<!-- Code for viewing the Post -->
+				<div class="card">
+					<div class="top">
+						<div class="userDetails">
+							<div class="profilepic">
+								<div class="profile_img">
+									<div class="image">
+										<img src=
+"mainpic1.jpg"
+											alt="img8">
+									</div>
+								</div>
+							</div>
+							<h3>Ayushi Agarwal
+								<br>
+								<span>Mumbai, India</span>
+						</h3>
+						</div>
+						<div>
+							<span class="dot">
+								<i class="fas fa-ellipsis-h"></i>
+							</span>
+						</div>
+					</div>
+					<div class="imgBx">
+						<img src=
+"mainfinal1.jpg"
+							alt="post-1" class="cover">
+					</div>
+					<div class="post" data-post-id="7712">
+						
+						<div class="post-ratings-container">
+							<div class="post-rating">
+								<span class="post-rating-button material-icons">thumb_up</span>
+								<span class="post-rating-count">0</span>
+							</div>
+							<div class="post-rating">
+								<span class="post-rating-button material-icons">thumb_down</span>
+								<span class="post-rating-count">0</span>
+							</div>
+						</div>
+								</span>
+								<svg aria-label="Comment"
+									class="_8-yf5 "
+									color="#262626"
+									fill="#262626"
+									height="24"
+									role="img"
+									viewBox="0 0 48 48"
+									width="24">
+								
+							
+							
+		
+						<a href="#">
+							<p class="likes">203 likes</p>
+
+						</a>
+						<a href="#">
+							<p class="message">
+							<b>Raju Modi</b>
+							</p>
+
+						</a>
+						<a href="#">
+							<h4 class="comments">View all 32 comments</h4>
+						</a>
+						<a href="#">
+							<h5 class="postTime">2 hours ago</h5>
+						</a>
+						<div class="addComments">
+							<div class="reaction">
+								<h3>
+								<i class="far fa-smile"></i>
+								</h3>
+							</div>
+							<input type="text"
+								class="text"
+								placeholder="Add a comment...">
+							<a href="#">Post</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card">
+					<div class="top">
+						<div class="userDetails">
+							<div class="profilepic">
+								<div class="profile_img">
+									<div class="image">
+										<img src=
+"mainpic2.jpg"
+											alt="img8">
+									</div>
+								</div>
+							</div>
+							<h3>Shrutii Agarwal
+								<br>
+								<span>Delhi, India</span>
+						</h3>
+						</div>
+						<div>
+							<span class="dot">
+								<i class="fas fa-ellipsis-h"></i>
+							</span>
+						</div>
+					</div>
+					<div class="imgBx">
+						<img src=
+"mainfinal2.jpg"
+							alt="post-1" class="cover">
+					</div>
+					<div class="post" data-post-id="7712">
+						
+						<div class="post-ratings-container">
+							<div class="post-rating">
+								<span class="post-rating-button material-icons">thumb_up</span>
+								<span class="post-rating-count">0</span>
+							</div>
+							<div class="post-rating">
+								<span class="post-rating-button material-icons">thumb_down</span>
+								<span class="post-rating-count">0</span>
+							</div>
+						</div>
+								</span>
+								<svg aria-label="Comment"
+									class="_8-yf5 "
+									color="#262626"
+									fill="#262626"
+									height="24"
+									role="img"
+									viewBox="0 0 48 48"
+									width="24">
+								
+							
+							
+		
+						<a href="#">
+							<p class="likes">203 likes</p>
+
+						</a>
+						<a href="#">
+							<p class="message">
+							<b>SNIGDHAAA</b>
+							</p>
+
+						</a>
+						<a href="#">
+							<h4 class="comments">View all 32 comments</h4>
+						</a>
+						<a href="#">
+							<h5 class="postTime">2 hours ago</h5>
+						</a>
+						<div class="addComments">
+							<div class="reaction">
+								<h3>
+								<i class="far fa-smile"></i>
+								</h3>
+							</div>
+							<input type="text"
+								class="text"
+								placeholder="Add a comment...">
+							<a href="#">Post</a>
+						</div>
+					</div>
+				</div>
+				
+				
